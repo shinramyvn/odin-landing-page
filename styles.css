@@ -9,8 +9,8 @@
 }
 
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 
 ul {
@@ -23,6 +23,16 @@ ul {
     padding: 0;
 }
 
+.hero {
+    padding: 20px 8%;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
 .header ul {
     display: flex;
     justify-content: space-between;
@@ -31,13 +41,38 @@ ul {
 
 .header ul .right {
     display: flex;
+    gap: 12px;
 }
 
+.hero-content {
+    display: flex;
+    gap: 24px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-text .sign-up{
+    max-width: 100px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+
+.hero-image img {
+    width: 100%;
+    max-width: 800px;
+}
 
 .title,
 .logo,
 .footer,
-.call-card {
+.call-card,
+.sign-up {
     color: #F9FAF8;
 }
 
@@ -52,8 +87,7 @@ ul {
 }
 
 .header .link-item,
-.subtext,
-.call-card {
+.subtext {
     color: #E5E7EB;
 }
 
@@ -69,6 +103,7 @@ ul {
 
 .information-title {
     font-size: 36px;
+    text-align: center;
 }
 
 .quote {

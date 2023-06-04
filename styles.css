@@ -87,7 +87,7 @@ ul {
 }
 
 .header .link-item,
-.subtext {
+.subtext{
     color: #E5E7EB;
 }
 
@@ -97,7 +97,8 @@ ul {
 }
 
 .information-title,
-.quote-text {
+.quote-text,
+.card p {
     color: #1F2937
 }
 
@@ -105,12 +106,48 @@ ul {
     font-size: 36px;
     text-align: center;
 }
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 20px 8%;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card img {
+    border:#3882F6 3px solid;
+    border-radius: 10px;
+    width: 175px;
+    height: 175px;
+}
+
+.card p {
+    width: 175px;
+    text-align: center;
+}
 
 .quote {
     background-color: #E5E7EB;
+    padding: 70px 8%;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: lighter;
+}
+
+.quote p {
+    text-align: right;
+    padding-top: 10px;
+    font-size: 24px;
 }

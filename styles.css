@@ -72,7 +72,7 @@ ul {
 .logo,
 .footer,
 .call-card,
-.sign-up {
+.sign-up{
     color: #F9FAF8;
 }
 
@@ -150,4 +150,38 @@ ul {
     text-align: right;
     padding-top: 10px;
     font-size: 24px;
+}
+
+.call-card-container {
+    padding: 70px 8%;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.call-card {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-card-text {
+
+}
+
+.call-card-button {
+    margin-left: auto;
+}
+
+.call-card-button button {
+    width: 100px;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    border: white 1px solid;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
 }
